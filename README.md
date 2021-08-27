@@ -8,7 +8,11 @@ OsiriX is the most widely used DICOM viewer in the world. OsiriX MD, the commerc
 
 ![GitHub license](https://img.shields.io/github/license/pixmeo/osirix.svg)
 
-<iframe src="https://ghbtns.com/github-btn.html?user=pixmeo&repo=osirix&type=star&count=true&size=large" frameborder="0" scrolling="0" width="170" height="30" title="GitHub"></iframe>
+![](https://img.shields.io/tokei/lines/github/pixmeo/osirix)
+
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/pixmeo/osirix?style=plastic)
+
+![Star](https://img.shields.io/github/stars/pixmeo/osirix?style=social)
 
 ![](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
 

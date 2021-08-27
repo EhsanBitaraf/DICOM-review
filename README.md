@@ -1,5 +1,10 @@
 #
 
+<p align="center">
+This is a preliminary review of tools and codes related to the DICOM standard. It is an attempt to classify them.
+</p>
+
+
 - [DICOM Viewer](#dicom-viewer)
 	- [osirix](#osirix)
 	- [dicomweb-client](#dicomweb-client)
@@ -81,12 +86,76 @@
 	- [dicomweb-pacs](#dicomweb-pacs)
 - [Keyword](#keyword)
 
-<p align="center">
-This is a preliminary review of tools and codes related to the DICOM standard. It is an attempt to classify them.
-</p>
 
 
-->THIS TEXT IS IN THE CENTER<- 
+
+# About [DICOM](https://www.dicomstandard.org/)
+
+
+DICOM® — Digital Imaging and Communications in Medicine — is the international standard for medical images and related information. It defines the formats for medical images that can be exchanged with the data and quality necessary for clinical use.
+
+DICOM® is implemented in almost every radiology, cardiology imaging, and radiotherapy device (X-ray, CT, MRI, ultrasound, etc.), and increasingly in devices in other medical domains such as ophthalmology and dentistry. With hundreds of thousands of medical imaging devices in use, DICOM® is one of the most widely deployed healthcare messaging Standards in the world. There are literally billions of DICOM® images currently in use for clinical care.
+
+Since its first publication in 1993, DICOM® has revolutionized the practice of radiology, allowing the replacement of X-ray film with a fully digital workflow. Much as the Internet has become the platform for new consumer information applications, DICOM® has enabled advanced medical imaging applications that have “changed the face of clinical medicine”. From the emergency department, to cardiac stress testing, to breast cancer detection, DICOM® is the standard that makes medical imaging work — for doctors and for patients.
+
+DICOM® is recognized by the International Organization for Standardization as the ISO 12052 standard.
+
+
+# DICOM Standard Parts
+[DICOM **Part 1**](http://dicom.nema.org/medical/dicom/current/output/html/part01.html): Introduction and Overview	
+
+[DICOM **Part 2**](http://dicom.nema.org/medical/dicom/current/output/html/part02.html): Conformance 
+	
+[DICOM **Part 3**](http://dicom.nema.org/medical/dicom/current/output/html/part03.html): Information Object Definitions
+ 	
+[DICOM **Part 4**](http://dicom.nema.org/medical/dicom/current/output/html/part04.html): Service Class Specifications
+ 	
+[DICOM **Part 5**](http://dicom.nema.org/medical/dicom/current/output/html/part05.html): Data Structures and Encoding
+ 	
+[DICOM **Part 6**](http://dicom.nema.org/medical/dicom/current/output/html/part06.html): Data Dictionary
+ 	
+[DICOM **Part 7**](http://dicom.nema.org/medical/dicom/current/output/html/part07.html): Message Exchange
+ 	
+[DICOM **Part 8**](http://dicom.nema.org/medical/dicom/current/output/html/part08.html): Network Communication Support for Message Exchange
+ 	
+[DICOM **Part 10**](http://dicom.nema.org/medical/dicom/current/output/html/part10.html): Media Storage and File Format for Media Interchange
+ 	
+[DICOM **Part 11**](http://dicom.nema.org/medical/dicom/current/output/html/part11.html): Media Storage Application Profiles
+ 	
+[DICOM **Part 12**](http://dicom.nema.org/medical/dicom/current/output/html/part12.html): Media Formats and Physical Media for Media Interchange
+ 	
+[DICOM **Part 14**](http://dicom.nema.org/medical/dicom/current/output/html/part14.html): Grayscale Standard Display Function
+ 	
+[DICOM **Part 15**](http://dicom.nema.org/medical/dicom/current/output/html/part15.html): Security and System Management Profiles
+ 	
+[DICOM **Part 16**](http://dicom.nema.org/medical/dicom/current/output/html/part16.html): Content Mapping Resource
+ 	
+[DICOM **Part 17**](http://dicom.nema.org/medical/dicom/current/output/html/part17.html): Explanatory Information
+ 	
+[DICOM **Part 18**](http://dicom.nema.org/medical/dicom/current/output/html/part18.html): Web Services
+ 	
+[DICOM **Part 19**](http://dicom.nema.org/medical/dicom/current/output/html/part19.html): Application Hosting
+ 	
+[DICOM **Part 20**](http://dicom.nema.org/medical/dicom/current/output/html/part20.html): Imaging Reports using HL7 Clinical Document Architecture 
+	
+[DICOM **Part 21**](http://dicom.nema.org/medical/dicom/current/output/html/part21.html): Transformations between DICOM and other Representations
+ 	
+[DICOM **Part 22**](http://dicom.nema.org/medical/dicom/current/output/html/part22.html): Real-Time Communication
+
+# DICOMweb™
+
+>DICOMweb™ is the DICOM Standard for web-based medical imaging. It is a set of RESTful services, enabling web developers to unlock the power of healthcare images using industry-standard toolsets. DICOMweb can be implemented directly or as a proxy to the DIMSE services to offer modern web-based access to DICOM-enabled systems. Image-producing modalities don’t all need to be retrofitted to support DICOMweb.
+
+**DICOMweb Services**
+
+|Service     |Description                               |Standard         |
+|------------|------------------------------------------|-----------------|
+|Query       |Search for DICOM objects (QIDO-RS)        |[DICOM PS3.18 10.6](http://dicom.nema.org/medical/dicom/current/output/chtml/part18/sect_10.6.html)|
+|Retrieve    |Retrieve DICOM objects (WADO-RS)          |[DICOM PS3.18 10.4](http://dicom.nema.org/medical/dicom/current/output/chtml/part18/sect_10.4.html)|
+|  	     |Retrieve single DICOM instances (WADO-URI)|[DICOM PS3.18 9](http://dicom.nema.org/medical/dicom/current/output/chtml/part18/chapter_9.html)   |
+|Store 	     |Store DICOM objects (STOW-RS) 	        |[DICOM PS3.18 10.5](http://dicom.nema.org/medical/dicom/current/output/chtml/part18/sect_10.5.html)|
+|Worklist    |Manage worklist items (UPS-RS)            |[DICOM PS3.18 11](http://dicom.nema.org/medical/dicom/current/output/chtml/part18/chapter_11.html)  |
+|Capabilities|Discover services                         |[DICOM PS3.18 8.9](http://dicom.nema.org/medical/dicom/current/output/chtml/part18/sect_8.9.html) |
 
 # DICOM Viewer
 
@@ -277,11 +346,20 @@ This is an Angular 9+ DICOM Web Viewer Component, based on [CornerstoneJS](https
 
 It includes a demo app that can be tried [here](https://fourctv.github.io/dicomViewerDemo/). Demo app source is included in the project.
 
-Star : 28
+![GitHub license](https://img.shields.io/github/license/fourctv/dicomViewerLib.svg)
+
+![Total line](https://img.shields.io/tokei/lines/github/fourctv/dicomViewerLib)
+
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/fourctv/dicomViewerLib?style=plastic)
+
+![Star](https://img.shields.io/github/stars/fourctv/dicomViewerLib?style=social)
 
 ![](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
-[https://github.com/fourctv/dicomViewerLib](https://github.com/fourctv/dicomViewerLib)
+**Links** : 
+
+**Package** :
+cornerstone-core 
 
 ## [bluelight](https://github.com/cylab-tw/bluelight)
 

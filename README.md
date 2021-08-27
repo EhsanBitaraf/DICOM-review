@@ -81,7 +81,12 @@
 	- [dicomweb-pacs](#dicomweb-pacs)
 - [Keyword](#keyword)
 
+<p align="center">
+This is a preliminary review of tools and codes related to the DICOM standard. It is an attempt to classify them.
+</p>
 
+
+->THIS TEXT IS IN THE CENTER<- 
 
 # DICOM Viewer
 

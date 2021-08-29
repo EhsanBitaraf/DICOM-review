@@ -1,92 +1,19 @@
 #
 
-<p align="center">
+<div align="center">
+<p style="font-size:30px">DICOM Review</p>
 This is a preliminary review of tools and codes related to the DICOM standard. It is an attempt to classify them.
+<p>
+ <img src="https://img.shields.io/badge/Maintained%3F-yes-green.svg" alt="Maintained" > 
+ <img src="https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg" alt="ask me anything" > 
+ <img src="https://img.shields.io/badge/Made%20with-Markdown-1f425f.svg" alt="made with Markdown" > 
+ <img src="https://img.shields.io/github/last-commit/EhsanBitaraf/DICOM-review" alt="last commit" > 
+ <img src="https://badges.aleen42.com/src/buymeacoffee.svg" alt="buy me a coffee" > 
+<p>
+ <img src="https://badges.frapsoft.com/os/v1/open-source.png?v=103" alt="open source" > 
 </p>
-
-
-- [DICOM Viewer](#dicom-viewer)
-	- [osirix](#osirix)
-	- [dicomweb-client](#dicomweb-client)
-	- [DICOMweb-js](#dicomweb-js)
-	- [dicomweb-client](#dicomweb-client-1)
-	- [u-dicom-viewer](#u-dicom-viewer)
-	- [dwv-vue](#dwv-vue)
-	- [react-cornerstone-viewport](#react-cornerstone-viewport)
-	- [react-cornerstone-example](#react-cornerstone-example)
-	- [dicom-microscopy-viewer](#dicom-microscopy-viewer)
-	- [dicomViewerLib](#dicomviewerlib)
-	- [bluelight](#bluelight)
-	- [Dicom-Viewer](#dicom-viewer-1)
-	- [Visualization-DMIM](#visualization-dmim)
-	- [dwv-jqmobile](#dwv-jqmobile)
-	- [dicom-viewer](#dicom-viewer-2)
-	- [DicomBrowser](#dicombrowser)
-	- [simply-dicom](#simply-dicom)
-	- [embedded-pydicom-react-viewer](#embedded-pydicom-react-viewer)
-	- [GDP](#gdp)
-	- [DicomVis](#dicomvis)
-	- [DICOM\_viewer](#dicom_viewer)
-	- [cornerstone](#cornerstone)
-- [DICOM Parser](#dicom-parser)
-	- [pynetdicom](#pynetdicom)
-	- [Daikon](#daikon)
-	- [Evil-DICOM](#evil-dicom)
-	- [dicomutils](#dicomutils)
-	- [dicom\_parser](#dicom_parser)
-	- [pydicom](#pydicom)
-	- [fo-dicom](#fo-dicom)
-	- [fo-dicom-samples](#fo-dicom-samples)
-- [DICOM Server](#dicom-server)
-	- [cornerstone WADO Image Loader](#cornerstone-wado-image-loader)
-	- [Medical Imaging Server for DICOM \*](#medical-imaging-server-for-dicom-)
-	- [DICOMcloud \*](#dicomcloud-)
-	- [dicomweb-server](#dicomweb-server)
-	- [Conquest-DICOM-Server](#conquest-dicom-server)
-	- [clara-dicom-adapter](#clara-dicom-adapter)
-	- [hermes **\***](#hermes-)
-	- [Orthanc](#orthanc)
-	- [dcm4chee-arc-cdi](#dcm4chee-arc-cdi)
-- [DICOM Convertor](#dicom-convertor)
-	- [mritopng](#mritopng)
-	- [dicom2stl](#dicom2stl)
-	- [dicom-ecg-plot](#dicom-ecg-plot)
-	- [dcmstack](#dcmstack)
-	- [Dicom\_RT\_and\_Images\_to\_Mask](#dicom_rt_and_images_to_mask)
-	- [dicomweb-proxy](#dicomweb-proxy)
-	- [DICOM-to-JPG](#dicom-to-jpg)
-	- [wsi-to-dicom-converter](#wsi-to-dicom-converter)
-	- [dicomifier](#dicomifier)
-	- [imageformats](#imageformats)
-	- [pylibjpeg](#pylibjpeg)
-- [DICOM Mis](#dicom-mis)
-	- [DVTk](#dvtk)
-	- [ECGToolkit](#ecgtoolkit)
-	- [DVH-Analytics](#dvh-analytics)
-	- [DICOM-CNN](#dicom-cnn)
-	- [dicomWeb](#dicomweb)
-	- [Niffler](#niffler)
-	- [OnkoDICOM](#onkodicom)
-	- [dovo](#dovo)
-	- [healthcare-api-dicomweb-cli](#healthcare-api-dicomweb-cli)
-	- [dcmgw](#dcmgw)
-	- [virtual-dicom-printer](#virtual-dicom-printer)
-	- [dicom-character-set](#dicom-character-set)
-	- [DICOMToFHIRImagingStudy](#dicomtofhirimagingstudy)
-	- [Pinnacle-tar-DICOM](#pinnacle-tar-dicom)
-	- [dicom-data-dictionary](#dicom-data-dictionary)
-	- [cornerstoneTools](#cornerstonetools)
-	- [medpy](#medpy)
-- [Image Processing](#image-processing)
-- [PACS](#pacs)
-	- [Dicoogle](#dicoogle)
-	- [EasyPACS **\***](#easypacs-)
-	- [neurdicom **\***](#neurdicom-)
-	- [RadiologyInformationSystem](#radiologyinformationsystem)
-	- [dicomweb-pacs](#dicomweb-pacs)
-- [Keyword](#keyword)
-
-
+</p>
+</div>
 
 
 # About [DICOM](https://www.dicomstandard.org/)
@@ -157,6 +84,94 @@ DICOM® is recognized by the International Organization for Standardization as t
 |Worklist    |Manage worklist items (UPS-RS)            |[DICOM PS3.18 11](http://dicom.nema.org/medical/dicom/current/output/chtml/part18/chapter_11.html)  |
 |Capabilities|Discover services                         |[DICOM PS3.18 8.9](http://dicom.nema.org/medical/dicom/current/output/chtml/part18/sect_8.9.html) |
 
+
+#
+------
+# Table of Content
+
+- [DICOM Viewer](#dicom-viewer)
+	- [osirix](#osirix)
+	- [dicomweb-client](#dicomweb-client)
+	- [DICOMweb-js](#dicomweb-js)
+	- [dicomweb-client](#dicomweb-client-1)
+	- [u-dicom-viewer](#u-dicom-viewer)
+	- [dwv-vue](#dwv-vue)
+	- [react-cornerstone-viewport](#react-cornerstone-viewport)
+	- [react-cornerstone-example](#react-cornerstone-example)
+	- [dicom-microscopy-viewer](#dicom-microscopy-viewer)
+	- [dicomViewerLib](#dicomviewerlib)
+	- [bluelight](#bluelight)
+	- [Dicom-Viewer](#dicom-viewer-1)
+	- [Visualization-DMIM](#visualization-dmim)
+	- [dwv-jqmobile](#dwv-jqmobile)
+	- [dicom-viewer](#dicom-viewer-2)
+	- [DicomBrowser](#dicombrowser)
+	- [simply-dicom](#simply-dicom)
+	- [embedded-pydicom-react-viewer](#embedded-pydicom-react-viewer)
+	- [GDP](#gdp)
+	- [DicomVis](#dicomvis)
+	- [DICOM\_viewer](#dicom_viewer)
+	- [cornerstone](#cornerstone)
+- [DICOM Parser](#dicom-parser)
+	- [pynetdicom](#pynetdicom)
+	- [Daikon](#daikon)
+	- [Evil-DICOM](#evil-dicom)
+	- [dicomutils](#dicomutils)
+	- [dicom\_parser](#dicom_parser)
+	- [pydicom](#pydicom)
+	- [fo-dicom](#fo-dicom)
+	- [fo-dicom-samples](#fo-dicom-samples)
+- [DICOM Server](#dicom-server)
+	- [cornerstoneWADOImageLoader](#cornerstonewadoimageloader)
+	- [dicom-server *](#dicom-server-)
+	- [DICOMcloud *](#dicomcloud-)
+	- [dicomweb-server](#dicomweb-server)
+	- [Conquest-DICOM-Server](#conquest-dicom-server)
+	- [clara-dicom-adapter](#clara-dicom-adapter)
+	- [hermes **\***](#hermes-)
+	- [Orthanc](#orthanc)
+	- [dcm4chee-arc-cdi](#dcm4chee-arc-cdi)
+- [DICOM Convertor](#dicom-convertor)
+	- [mritopng](#mritopng)
+	- [dicom2stl](#dicom2stl)
+	- [dicom-ecg-plot](#dicom-ecg-plot)
+	- [dcmstack](#dcmstack)
+	- [Dicom\_RT\_and\_Images\_to\_Mask](#dicom_rt_and_images_to_mask)
+	- [dicomweb-proxy](#dicomweb-proxy)
+	- [DICOM-to-JPG](#dicom-to-jpg)
+	- [wsi-to-dicom-converter](#wsi-to-dicom-converter)
+	- [dicomifier](#dicomifier)
+	- [imageformats](#imageformats)
+	- [pylibjpeg](#pylibjpeg)
+- [DICOM Miscellaneous](#dicom-miscellaneous)
+	- [DVTk](#dvtk)
+	- [ECGToolkit](#ecgtoolkit)
+	- [DVH-Analytics](#dvh-analytics)
+	- [DICOM-CNN](#dicom-cnn)
+	- [dicomWeb](#dicomweb)
+	- [Niffler](#niffler)
+	- [OnkoDICOM](#onkodicom)
+	- [dovo](#dovo)
+	- [healthcare-api-dicomweb-cli](#healthcare-api-dicomweb-cli)
+	- [dcmgw](#dcmgw)
+	- [virtual-dicom-printer](#virtual-dicom-printer)
+	- [dicom-character-set](#dicom-character-set)
+	- [DICOMToFHIRImagingStudy](#dicomtofhirimagingstudy)
+	- [Pinnacle-tar-DICOM](#pinnacle-tar-dicom)
+	- [dicom-data-dictionary](#dicom-data-dictionary)
+	- [cornerstoneTools](#cornerstonetools)
+	- [medpy](#medpy)
+- [Image Processing](#image-processing)
+- [PACS](#pacs)
+	- [Dicoogle](#dicoogle)
+	- [EasyPACS **\***](#easypacs-)
+	- [neurdicom **\***](#neurdicom-)
+	- [RadiologyInformationSystem](#radiologyinformationsystem)
+	- [dicomweb-pacs](#dicomweb-pacs)
+- [Keyword](#keyword)
+
+
+
 # DICOM Viewer
 
 ## [osirix](https://github.com/pixmeo/osirix)
@@ -172,7 +187,6 @@ OsiriX is the most widely used DICOM viewer in the world. OsiriX MD, the commerc
 ![Star](https://img.shields.io/github/stars/pixmeo/osirix?style=social)
 
 ![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
-
 
 **Links** : 
 
@@ -192,7 +206,10 @@ JavaScript client implementation of [DICOMweb](https://www.dicomstandard.org/dic
 
 ![](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
-[https://github.com/dcmjs-org/dicomweb-client](https://github.com/dcmjs-org/dicomweb-client)
+**Links** : 
+
+**Package** : 
+
 
 ## [DICOMweb-js](https://github.com/DICOMcloud/DICOMweb-js)
 
@@ -210,6 +227,9 @@ The code provide a basic library for sending DICOM Web requests and parsing JSON
 
 ![](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
+**Links** : 
+
+**Package** : 
 
 ## [dicomweb-client](https://github.com/MGHComputationalPathology/dicomweb-client)
 
@@ -365,23 +385,42 @@ cornerstone-core
 
 **Blue Light** is a browser-based medical image viewer is primarily maintained by the [Imaging Informatics Labs](https://cylab.dicom.tw/). It is a pure single-page application (SPA), lightweight, and using only JavaScript and HTML5 technologies so as to deploy it on any HTTP server easily (just put it in HTTP server). It supports not only opening local data, but also connecting to medical image archives which support [DICOMweb](https://www.dicomstandard.org/dicomweb/). It can display the various image markups and annotations such as Annotation and Image Markup (AIM), DICOM-RT structure set (RTSS), DICOM Overlay, and DICOM Presentation State. It provides tools for medical image interpretation and 3D image reconstruction, e.g., Multiplanar Rreformation or Reconstruction (MPR) and Volume Rendering (VR).
 
-Star : 22
+![GitHub license](https://img.shields.io/github/license/cylab-tw/bluelight.svg)
+
+![Total line](https://img.shields.io/tokei/lines/github/cylab-tw/bluelight)
+
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/cylab-tw/bluelight?style=plastic)
+
+![Star](https://img.shields.io/github/stars/cylab-tw/bluelight?style=social)
 
 ![](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
-[https://github.com/cylab-tw/bluelight](https://github.com/cylab-tw/bluelight)
+**Links** : 
 
 [https://cylab-tw.github.io/bluelight/bluelight/html/start.html](https://cylab-tw.github.io/bluelight/bluelight/html/start.html)
+
+**Package** :
+cornerstone, dicomParser, cornerstoneWADOImageLoader 
 
 ## [Dicom-Viewer](https://github.com/wenyalintw/Dicom-Viewer)
 
 An application displaying 2D/3D Dicom
 
-Star : 22
+![GitHub license](https://img.shields.io/github/license/wenyalintw/Dicom-Viewer.svg)
+
+![Total line](https://img.shields.io/tokei/lines/github/wenyalintw/Dicom-Viewer)
+
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/wenyalintw/Dicom-Viewer?style=plastic)
+
+![Star](https://img.shields.io/github/stars/wenyalintw/Dicom-Viewer?style=social)
 
 ![](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 
-[https://github.com/wenyalintw/Dicom-Viewer](https://github.com/wenyalintw/Dicom-Viewer)
+**Links** : 
+
+**Package** :
+pydicom
+, PyQt5
 
 ## [Visualization-DMIM](https://github.com/nis1/Visualization-DMIM)
 
@@ -389,165 +428,310 @@ DICOM 3D Medical Image Modeling (DMIM)
 
 Nowadays, patients are sent to MRI, PET, and CT scans more than before. Each scan produces a large amount of information of a patient, normally as a set of 2D slices, that will be inspected by a doctor or a technician. The project aims to visualize any DICOM images by creating a 3D model in addition to the classic slice-by-slice inspection.
 
-Star : 22
+![GitHub license](https://img.shields.io/github/license/nis1/Visualization-DMIM.svg)
+
+![Total line](https://img.shields.io/tokei/lines/github/nis1/Visualization-DMIM)
+
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/nis1/Visualization-DMIM?style=plastic)
+
+![Star](https://img.shields.io/github/stars/nis1/Visualization-DMIM?style=social)
 
 ![](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
-[https://github.com/nis1/Visualization-DMIM](https://github.com/nis1/Visualization-DMIM)
+**Links** : 
 
 [https://www.youtube.com/watch?v=Xz3xwpmoMHg](https://www.youtube.com/watch?v=Xz3xwpmoMHg)
+
+**Package** :
+
+Be checked
 
 ## [dwv-jqmobile](https://github.com/ivmartel/dwv-jqmobile)
 
 Medical viewer using [DWV](https://github.com/ivmartel/dwv) (DICOM Web Viewer) and [jQuery mobile](https://jquerymobile.com/).
 
-Star : 19
+![GitHub license](https://img.shields.io/github/license/ivmartel/dwv-jqmobile.svg)
+
+![Total line](https://img.shields.io/tokei/lines/github/ivmartel/dwv-jqmobile)
+
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/ivmartel/dwv-jqmobile?style=plastic)
+
+![Star](https://img.shields.io/github/stars/ivmartel/dwv-jqmobile?style=social)
 
 ![](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
-[https://github.com/ivmartel/dwv-jqmobile](https://github.com/ivmartel/dwv-jqmobile)
+**Links** : 
 
 [https://ivmartel.github.io/dwv-jqmobile/](https://ivmartel.github.io/dwv-jqmobile/)
+
+**Package** :
+
+Be checked
 
 ## [dicom-viewer](https://github.com/termijn/dicom-viewer)
 
 Views medical datasets in 3D
 
-Star : 17
+![GitHub license](https://img.shields.io/github/license/termijn/dicom-viewer.svg)
+
+![Total line](https://img.shields.io/tokei/lines/github/termijn/dicom-viewer)
+
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/termijn/dicom-viewer?style=plastic)
+
+![Star](https://img.shields.io/github/stars/termijn/dicom-viewer?style=social)
 
 ![](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white), ![](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
 
-[https://github.com/termijn/dicom-viewer](https://github.com/termijn/dicom-viewer)
+**Links** : 
+
+**Package** :
+fo-dicom
 
 ## [DicomBrowser](https://github.com/ericspod/DicomBrowser)
 
 This is a lightweight portable Dicom browser application written in Python. It allows Dicom directories to be loaded, images and tag data viewed, and not much else aside. This is intended to be a cross-platform utility suitable for previewing Dicom data rather than doing any sort of processing.
 
-Star : 17
+![GitHub license](https://img.shields.io/github/license/ericspod/DicomBrowser.svg)
+
+![Total line](https://img.shields.io/tokei/lines/github/ericspod/DicomBrowser)
+
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/ericspod/DicomBrowser?style=plastic)
+
+![Star](https://img.shields.io/github/stars/ericspod/DicomBrowser?style=social)
 
 ![](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 
-Package : **pydicom**
-
-[https://github.com/ericspod/DicomBrowser](https://github.com/ericspod/DicomBrowser)
+**Links** : 
 
 [https://ericspod.github.io/Eidolon/](https://ericspod.github.io/Eidolon/)
+
+**Package** : 
+pydicom
 
 ## [simply-dicom](https://github.com/cpboyd/simply-dicom)
 
 simplyDICOM for Android
 
-Star : 16
+![GitHub license](https://img.shields.io/github/license/cpboyd/simply-dicom.svg)
 
-Java, Kotlin
+![Total line](https://img.shields.io/tokei/lines/github/cpboyd/simply-dicom)
 
-[https://github.com/cpboyd/simply-dicom](https://github.com/cpboyd/simply-dicom)
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/cpboyd/simply-dicom?style=plastic)
+
+![Star](https://img.shields.io/github/stars/cpboyd/simply-dicom?style=social)
+
+![](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white), ![](https://img.shields.io/badge/Kotlin-0095D5?&style=for-the-badge&logo=kotlin&logoColor=white)
+
+**Links** : 
+
+**Package** : 
+pydicom
 
 ## [embedded-pydicom-react-viewer](https://github.com/grimmer0125/embedded-pydicom-react-viewer)
 
-Medical DICOM file P10 Viewer + 🐍 Python 🐍 Code In Browser (-Pyodide-\&gt; WebAssembly) + Pydicom parser + TypeScript React App (CRA) + Python FastAPI Server Deployment + Mac M1 Docker support
+Medical DICOM file P10 Viewer + Python Code In Browser (-Pyodide-\&gt; WebAssembly) + Pydicom parser + TypeScript React App (CRA) + Python FastAPI Server Deployment + Mac M1 Docker support
 
-Star : 16
+![GitHub license](https://img.shields.io/github/license/grimmer0125/embedded-pydicom-react-viewer.svg)
+
+![Total line](https://img.shields.io/tokei/lines/github/grimmer0125/embedded-pydicom-react-viewer)
+
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/grimmer0125/embedded-pydicom-react-viewer?style=plastic)
+
+![Star](https://img.shields.io/github/stars/grimmer0125/embedded-pydicom-react-viewer?style=social)
 
 ![](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white), ![](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
-[https://github.com/grimmer0125/embedded-pydicom-react-viewer](https://github.com/grimmer0125/embedded-pydicom-react-viewer)
+**Links** : 
+
+**Package** : 
+
+Be checked
 
 ## [GDP](https://github.com/hh-mk/GDP)
 
 DICOM VIEWER FOR iOS
 
-Star : 15
+![GitHub license](https://img.shields.io/github/license/hh-mk/GDP.svg)
 
-Swift
+![Total line](https://img.shields.io/tokei/lines/github/hh-mk/GDP)
 
-[https://github.com/hh-mk/GDP](https://github.com/hh-mk/GDP)
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/hh-mk/GDP?style=plastic)
+
+![Star](https://img.shields.io/github/stars/hh-mk/GDP?style=social)
+
+![](https://img.shields.io/badge/Swift-FA7343?style=for-the-badge&logo=swift&logoColor=white)
+
+**Links** : 
+
+**Package** : 
+
+Be checked
 
 ## [DicomVis](https://github.com/MKozuch/DicomVis)
 
 Simple 4-pane viewer for visualising series of DICOM images. Written in Python using VTK. Requires VTK and PyQt4
 
-Star : 15
+![GitHub license](https://img.shields.io/github/license/MKozuch/DicomVis.svg)
+
+![Total line](https://img.shields.io/tokei/lines/github/MKozuch/DicomVis)
+
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/MKozuch/DicomVis?style=plastic)
+
+![Star](https://img.shields.io/github/stars/MKozuch/DicomVis?style=social)
 
 ![](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 
-Package : vtk, PyQt4, DicomVis\_ui
+**Links** : 
 
-[https://github.com/MKozuch/DicomVis](https://github.com/MKozuch/DicomVis)
+**Package** : 
+vtk
+, PyQt4
+, DicomVis\_ui
 
 ## [DICOM\_viewer](https://github.com/UoA-eResearch/DICOM_viewer)
 
 A Unity hololens viewer for DICOM images
 
-Star : 13
+![GitHub license](https://img.shields.io/github/license/UoA-eResearch/DICOM_viewer.svg)
+
+![Total line](https://img.shields.io/tokei/lines/github/UoA-eResearch/DICOM_viewer)
+
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/UoA-eResearch/DICOM_viewer?style=plastic)
+
+![Star](https://img.shields.io/github/stars/UoA-eResearch/DICOM_viewer?style=social)
 
 ![](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white)
 
-[https://github.com/UoA-eResearch/DICOM\_viewer](https://github.com/UoA-eResearch/DICOM_viewer)
+**Links** : 
+
+**Package** : 
+
+Be checked
 
 ## [cornerstone](https://github.com/cornerstonejs/cornerstone)
 
 Cornerstone.js delivers a complete web based medical imaging platform. This repository contains the Cornerstone.js &quot;Core&quot; component which is a lightweight JavaScript library for displaying medical images in modern web browsers that support the HTML5 canvas element.
 
-Star : 13
+![GitHub license](https://img.shields.io/github/license/cornerstonejs/cornerstone.svg)
+
+![Total line](https://img.shields.io/tokei/lines/github/cornerstonejs/cornerstone)
+
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/cornerstonejs/cornerstone?style=plastic)
+
+![Star](https://img.shields.io/github/stars/cornerstonejs/cornerstone?style=social)
 
 ![](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
-[https://github.com/cornerstonejs/cornerstone](https://github.com/cornerstonejs/cornerstone)
+**Links** : 
 
 [https://docs.cornerstonejs.org/](https://docs.cornerstonejs.org/)
 
+**Package** : 
+
+Be checked
+
 # DICOM Parser
 
-## pynetdicom
+## [pynetdicom](https://github.com/pydicom/pynetdicom)
 
 A Python implementation of the [DICOM](http://dicom.nema.org/) networking protocol, originally based on (legacy) [pynetdicom](https://github.com/patmun/pynetdicom_legacy).
 
-Star : 320
+![GitHub license](https://img.shields.io/github/license/pydicom/pynetdicom.svg)
+
+![Total line](https://img.shields.io/tokei/lines/github/pydicom/pynetdicom)
+
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/pydicom/pynetdicom?style=plastic)
+
+![Star](https://img.shields.io/github/stars/pydicom/pynetdicom?style=social)
 
 ![](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 
-[https://github.com/pydicom/pynetdicom](https://github.com/pydicom/pynetdicom)
+**Links** : 
 
-## Daikon
+**Package** : 
+
+Be checked
+
+## [Daikon](https://github.com/rii-mango/Daikon)
 
 Daikon is a pure JavaScript DICOM reader.
 
-Star : 159
+![GitHub license](https://img.shields.io/github/license/pydicom/pynetdicom.svg)
+
+![Total line](https://img.shields.io/tokei/lines/github/pydicom/pynetdicom)
+
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/pydicom/pynetdicom?style=plastic)
+
+![Star](https://img.shields.io/github/stars/pydicom/pynetdicom?style=social)
 
 ![](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
-[https://github.com/rii-mango/Daikon](https://github.com/rii-mango/Daikon)
+**Links** : 
+
+**Package** : 
+
+Be checked
 
 ## [Evil-DICOM](https://github.com/rexcardan/Evil-DICOM)
 
 A simple to use C# library for reading and manipulating DICOM files.
 
-Star : 122
+![GitHub license](https://img.shields.io/github/license/rexcardan/Evil-DICOM.svg)
+
+![Total line](https://img.shields.io/tokei/lines/github/rexcardan/Evil-DICOM)
+
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/rexcardan/Evil-DICOM?style=plastic)
+
+![Star](https://img.shields.io/github/stars/rexcardan/Evil-DICOM?style=social)
 
 ![](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white)
 
-[https://github.com/rexcardan/Evil-DICOM](https://github.com/rexcardan/Evil-DICOM)
+**Links** : 
+
+**Package** : 
+
+Be checked
+
 
 ## [dicomutils](https://github.com/raysearchlabs/dicomutils)
 
 A set of utilities for working with DICOM files. The main utility is currently build\_dicom, which can generate simple synthetic CT data, MR data, PET data, RT Structure sets, RT Doses and RT Plans.
 
-Star : 43
+![GitHub license](https://img.shields.io/github/license/raysearchlabs/dicomutils.svg)
+
+![Total line](https://img.shields.io/tokei/lines/github/raysearchlabs/dicomutils)
+
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/raysearchlabs/dicomutils?style=plastic)
+
+![Star](https://img.shields.io/github/stars/raysearchlabs/dicomutils?style=social)
 
 ![](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 
-[https://github.com/raysearchlabs/dicomutils](https://github.com/raysearchlabs/dicomutils)
+**Links** : 
+
+**Package** : 
+
+Be checked
 
 ## [dicom\_parser](https://github.com/open-dicom/dicom_parser)
 
 _dicom\_parser_ is a utility python package meant to facilitate access to [DICOM](https://www.dicomstandard.org/) header information by extending the functionality of [_pydicom_](https://pydicom.github.io/).
 
-Star : 13
+![GitHub license](https://img.shields.io/github/license/open-dicom/dicom_parser.svg)
+
+![Total line](https://img.shields.io/tokei/lines/github/open-dicom/dicom_parser)
+
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/open-dicom/dicom_parser?style=plastic)
+
+![Star](https://img.shields.io/github/stars/open-dicom/dicom_parser?style=social)
 
 ![](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 
-[https://github.com/open-dicom/dicom\_parser](https://github.com/open-dicom/dicom_parser)
+**Links** : 
+
+**Package** : 
+
+Be checked
 
 ## [pydicom](https://github.com/pydicom/pydicom)
 
@@ -557,11 +741,17 @@ As a pure Python package, _pydicom_ can run anywhere Python runs without any oth
 
 If you&#39;re looking for a Python library for DICOM networking then you might be interested in another of our projects: [pynetdicom](https://github.com/pydicom/pynetdicom).
 
-Star : 1200
+![GitHub license](https://img.shields.io/github/license/pydicom/pydicom.svg)
+
+![Total line](https://img.shields.io/tokei/lines/github/pydicom/pydicom)
+
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/pydicom/pydicom?style=plastic)
+
+![Star](https://img.shields.io/github/stars/pydicom/pydicom?style=social)
 
 ![](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 
-[https://github.com/pydicom/pydicom](https://github.com/pydicom/pydicom)
+**Links** : 
 
 [https://pydicom.github.io/pydicom/dev/](https://pydicom.github.io/pydicom/dev/)
 
@@ -569,45 +759,87 @@ Star : 1200
 
 Fellow Oak DICOM for .NET, .NET Core, Universal Windows, Android, iOS, Mono and Unity
 
-Star : 714
+![GitHub license](https://img.shields.io/github/license/fo-dicom/fo-dicom.svg)
+
+![Total line](https://img.shields.io/tokei/lines/github/fo-dicom/fo-dicom)
+
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/fo-dicom/fo-dicom?style=plastic)
+
+![Star](https://img.shields.io/github/stars/fo-dicom/fo-dicom?style=social)
 
 ![](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white), ![](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
 
-[https://github.com/fo-dicom/fo-dicom](https://github.com/fo-dicom/fo-dicom)
+**Links** : 
+
+**Package** : 
+
+Be checked
 
 ## [fo-dicom-samples](https://github.com/fo-dicom/fo-dicom-samples)
 
 **Sample applications associated with the** [**fo-dicom**](https://github.com/fo-dicom/fo-dicom) **framework, version 4.0.5**
 
-Star : 94
+![GitHub license](https://img.shields.io/github/license/fo-dicom/fo-dicom-samples.svg)
+
+![Total line](https://img.shields.io/tokei/lines/github/fo-dicom/fo-dicom-samples)
+
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/fo-dicom/fo-dicom-samples?style=plastic)
+
+![Star](https://img.shields.io/github/stars/fo-dicom/fo-dicom-samples?style=social)
 
 ![](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white)
 
-[https://github.com/fo-dicom/fo-dicom-samples](https://github.com/fo-dicom/fo-dicom-samples)
+**Links** : 
+
+**Package** : 
+
+Be checked
 
 # DICOM Server
 
-## cornerstone WADO Image Loader
+## [cornerstoneWADOImageLoader](https://github.com/cornerstonejs/cornerstoneWADOImageLoader)
+
+cornerstone WADO Image Loader
 
 A [cornerstone](https://github.com/cornerstonejs/cornerstone) Image Loader for DICOM P10 instances over HTTP (WADO-URI) or DICOMWeb (WADO-RS). This can be used to integrate cornerstone with WADO-URI servers, DICOMWeb servers or any other HTTP based server that returns DICOM P10 instances (e.g. [Orthanc](http://www.orthanc-server.com/) or custom servers)
 
-Star : 217
+![GitHub license](https://img.shields.io/github/license/cornerstonejs/cornerstoneWADOImageLoader.svg)
+
+![Total line](https://img.shields.io/tokei/lines/github/cornerstonejs/cornerstoneWADOImageLoader)
+
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/cornerstonejs/cornerstoneWADOImageLoader?style=plastic)
+
+![Star](https://img.shields.io/github/stars/cornerstonejs/cornerstoneWADOImageLoader?style=social)
 
 ![](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
-[https://github.com/cornerstonejs/cornerstoneWADOImageLoader](https://github.com/cornerstonejs/cornerstoneWADOImageLoader)
+**Links** : 
 
-## Medical Imaging Server for DICOM \*
+**Package** : 
+
+Be checked
+
+## [dicom-server](https://github.com/microsoft/dicom-server) *
 
 The Medical Imaging Server for DICOM is an open source DICOM server that is easily deployed on Azure. It allows standards-based communication with any DICOMweb™ enabled systems, and injects DICOM metadata into a FHIR server to create a holistic view of patient data. The Medical Imaging Server for DICOM integrates tightly with the [FHIR Server for Azure](https://github.com/microsoft/fhir-server) enabling healthcare professionals, ISVs, and medical device vendors to create new and innovative solutions. FHIR is becoming an important standard for clinical data and provides extensibility to support integration of other types of data directly, or through references. By using the Medical Imaging Server for DICOM, organizations can store references to imaging data in FHIR and enable queries across clinical and imaging datasets.
 
-Star : 160
+![GitHub license](https://img.shields.io/github/license/microsoft/dicom-server.svg)
+
+![Total line](https://img.shields.io/tokei/lines/github/microsoft/dicom-server)
+
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/microsoft/dicom-server?style=plastic)
+
+![Star](https://img.shields.io/github/stars/microsoft/dicom-server?style=social)
 
 ![](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white)
 
-[https://github.com/microsoft/dicom-server](https://github.com/microsoft/dicom-server)
+**Links** : 
 
-## DICOMcloud \*
+**Package** : 
+
+Be checked
+
+## [DICOMcloud](https://github.com/DICOMcloud/DICOMcloud) *
 
 The DICOMcloud is a standalone DICOMweb server with RESTful implementation of the DICOMweb/WADO services:
 
@@ -616,35 +848,66 @@ The DICOMcloud is a standalone DICOMweb server with RESTful implementation of th
 - **STOW-RS:** Store DICOM instances/images
 - **WADO-URI:** Web Access to DICOM objects
 
-Star : 155
+![GitHub license](https://img.shields.io/github/license/DICOMcloud/DICOMcloud.svg)
+
+![Total line](https://img.shields.io/tokei/lines/github/DICOMcloud/DICOMcloud)
+
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/DICOMcloud/DICOMcloud?style=plastic)
+
+![Star](https://img.shields.io/github/stars/DICOMcloud/DICOMcloud?style=social)
 
 ![](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white)
 
-[https://github.com/DICOMcloud/DICOMcloud](https://github.com/DICOMcloud/DICOMcloud)
+**Links** : 
+
+**Package** : 
+
+Be checked
 
 ## [dicomweb-server](https://github.com/dcmjs-org/dicomweb-server)
 
 Lightweight DICOMweb Server with CouchDB
 
-Star : 60
+![GitHub license](https://img.shields.io/github/license/dcmjs-org/dicomweb-server.svg)
+
+![Total line](https://img.shields.io/tokei/lines/github/dcmjs-org/dicomweb-server)
+
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/dcmjs-org/dicomweb-server?style=plastic)
+
+![Star](https://img.shields.io/github/stars/dcmjs-org/dicomweb-server?style=social)
 
 ![](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
-[https://github.com/dcmjs-org/dicomweb-server](https://github.com/dcmjs-org/dicomweb-server)
+**Links** : 
 
 [https://projectweek.na-mic.org/PW30\_2019\_GranCanaria/Projects/DICOMweb-CouchDB/](https://projectweek.na-mic.org/PW30_2019_GranCanaria/Projects/DICOMweb-CouchDB/)
+
+**Package** : 
+
+Be checked
 
 ## [Conquest-DICOM-Server](https://github.com/marcelvanherk/Conquest-DICOM-Server)
 
 This is the new **conquest DICOM server** source code repository, it is the first ever release of the full source code of Conquest Dicom server with full source code, including the windows GUI.
 
-Star : 52
+![GitHub license](https://img.shields.io/github/license/marcelvanherk/Conquest-DICOM-Server.svg)
 
-C, ![](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
+![Total line](https://img.shields.io/tokei/lines/github/marcelvanherk/Conquest-DICOM-Server)
 
-[https://github.com/marcelvanherk/Conquest-DICOM-Server](https://github.com/marcelvanherk/Conquest-DICOM-Server)
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/marcelvanherk/Conquest-DICOM-Server?style=plastic)
+
+![Star](https://img.shields.io/github/stars/marcelvanherk/Conquest-DICOM-Server?style=social)
+
+![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
+, ![](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
+
+**Links** : 
 
 [https://ingenium.home.xs4all.nl/dicom.html](https://ingenium.home.xs4all.nl/dicom.html)
+
+**Package** : 
+
+Be checked
 
 ## [clara-dicom-adapter](https://github.com/NVIDIA/clara-dicom-adapter)
 
@@ -652,11 +915,21 @@ Clara DICOM Adapter
 
 Designed for the Clara Deploy SDK, the Clara DICOM Adapter implements the necessary DICOM services for interoperability between Clara and other medical devices. The Clara DICOM Adapter allows you to send/receive DICOM objects using standard DICOM protocols and interpret standard DICOM part-10 formats.
 
-Star : 21
+![GitHub license](https://img.shields.io/github/license/NVIDIA/clara-dicom-adapter.svg)
+
+![Total line](https://img.shields.io/tokei/lines/github/NVIDIA/clara-dicom-adapter)
+
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/NVIDIA/clara-dicom-adapter?style=plastic)
+
+![Star](https://img.shields.io/github/stars/NVIDIA/clara-dicom-adapter?style=social)
 
 ![](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white)
 
-[https://github.com/NVIDIA/clara-dicom-adapter](https://github.com/NVIDIA/clara-dicom-adapter)
+**Links** : 
+
+**Package** : 
+
+Be checked
 
 ## [hermes](https://github.com/hermes-router/hermes) **\***
 
@@ -664,13 +937,23 @@ Star : 21
 
 **Important:** The project has been renamed to mercure and is currently undergoing significant development work towards version 0.2. Make sure to checkout only the branch _stable-v0.1_ for a working version. All ongoing development work has been moved to [https://github.com/mercure-imaging/mercure](https://github.com/mercure-imaging/mercure)
 
-Star : 18
+![GitHub license](https://img.shields.io/github/license/hermes-router/hermes.svg)
+
+![Total line](https://img.shields.io/tokei/lines/github/hermes-router/hermes)
+
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/hermes-router/hermes?style=plastic)
+
+![Star](https://img.shields.io/github/stars/hermes-router/hermes?style=social)
 
 …
 
-[https://github.com/hermes-router/hermes](https://github.com/hermes-router/hermes)
+**Links** : 
 
 [https://hermes-router.github.io/](https://hermes-router.github.io/)
+
+**Package** : 
+
+Be checked
 
 ## [Orthanc](https://github.com/jodogne/Orthanc)
 
@@ -678,21 +961,37 @@ Star : 18
 
 Here is the [new location of the official source code](https://hg.orthanc-server.com/).
 
-Star : 53
+![Star](https://img.shields.io/github/stars/jodogne/Orthanc?style=social)
 
 …
 
-[https://github.com/jodogne/Orthanc](https://github.com/jodogne/Orthanc)
+**Links** :
 
 [https://www.orthanc-server.com/](https://www.orthanc-server.com/)
+
+**Package** : 
+
+Be checked
 
 ## [dcm4chee-arc-cdi](https://github.com/dcm4che/dcm4chee-arc-cdi)
 
 Full-featured DICOM Archive based on Java Enterprise
 
-Star : 16
+![GitHub license](https://img.shields.io/github/license/dcm4che/dcm4chee-arc-cdi.svg)
 
-Java
+![Total line](https://img.shields.io/tokei/lines/github/dcm4che/dcm4chee-arc-cdi)
+
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/dcm4che/dcm4chee-arc-cdi?style=plastic)
+
+![Star](https://img.shields.io/github/stars/dcm4che/dcm4chee-arc-cdi?style=social)
+
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)
+
+**Links** :
+
+**Package** : 
+
+Be checked
 
 [https://github.com/dcm4che/dcm4chee-arc-cdi](https://github.com/dcm4che/dcm4chee-arc-cdi)
 
@@ -702,73 +1001,137 @@ Java
 
 A simple python module to make it easy to batch convert a binary DICOM file, which is usually an output from an MRI scan to a PNG image.
 
-Star : 115
+![GitHub license](https://img.shields.io/github/license/danishm/mritopng.svg)
+
+![Total line](https://img.shields.io/tokei/lines/github/danishm/mritopng)
+
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/danishm/mritopng?style=plastic)
+
+![Star](https://img.shields.io/github/stars/danishm/mritopng?style=social)
 
 ![](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 
-[https://github.com/danishm/mritopng](https://github.com/danishm/mritopng)
+**Links** :
+
+**Package** : 
+
+Be checked
 
 ## [dicom2stl](https://github.com/dave3d/dicom2stl)
 
 dicom2stl.py is a script that takes a [Dicom](https://www.dicomstandard.org/about/) series and generates a STL surface mesh.
 
-Star : 94
+![GitHub license](https://img.shields.io/github/license/dave3d/dicom2stl.svg)
+
+![Total line](https://img.shields.io/tokei/lines/github/dave3d/dicom2stl)
+
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/dave3d/dicom2stl?style=plastic)
+
+![Star](https://img.shields.io/github/stars/dave3d/dicom2stl?style=social)
 
 ![](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 
-[https://github.com/dave3d/dicom2stl](https://github.com/dave3d/dicom2stl)
+**Links** :
+
+**Package** : 
+
+Be checked
 
 ## [dicom-ecg-plot](https://github.com/marcodebe/dicom-ecg-plot)
 
 A python tool to plot Dicom ECG. The DICOM file can also be specified as studyUID seriesUID objectUID and retrieved from your WADO server.
 
-Star : 92
+![GitHub license](https://img.shields.io/github/license/marcodebe/dicom-ecg-plot.svg)
+
+![Total line](https://img.shields.io/tokei/lines/github/marcodebe/dicom-ecg-plot)
+
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/marcodebe/dicom-ecg-plot?style=plastic)
+
+![Star](https://img.shields.io/github/stars/marcodebe/dicom-ecg-plot?style=social)
 
 ![](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 
-[https://github.com/marcodebe/dicom-ecg-plot](https://github.com/marcodebe/dicom-ecg-plot)
+**Links** :
 
 [https://ecg.galliera.it/](https://ecg.galliera.it/)
+
+**Package** : 
+pydicom
 
 ## [dcmstack](https://github.com/moloney/dcmstack)
 
 This package provides DICOM to Nifti conversion with the added ability to extract and summarize meta data from the source DICOMs. The meta data can be injected it into a Nifti header extension or written out as a JSON formatted text file.
 
-Star : 70
+![GitHub license](https://img.shields.io/github/license/moloney/dcmstack.svg)
+
+![Total line](https://img.shields.io/tokei/lines/github/moloney/dcmstack)
+
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/moloney/dcmstack?style=plastic)
+
+![Star](https://img.shields.io/github/stars/moloney/dcmstack?style=social)
 
 ![](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 
-[https://github.com/moloney/dcmstack](https://github.com/moloney/dcmstack)
+**Links** :
+
+**Package** : 
+pydicom 
+, nibabel 
 
 ## [Dicom\_RT\_and\_Images\_to\_Mask](https://github.com/brianmanderson/Dicom_RT_and_Images_to_Mask)
 
 This code provides functionality for turning dicom images and RT structures into nifti files as well as turning prediction masks back into RT structures.
 
-Star : 31
+![GitHub license](https://img.shields.io/github/license/brianmanderson/Dicom_RT_and_Images_to_Mask.svg)
+
+![Total line](https://img.shields.io/tokei/lines/github/brianmanderson/Dicom_RT_and_Images_to_Mask)
+
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/brianmanderson/Dicom_RT_and_Images_to_Mask?style=plastic)
+
+![Star](https://img.shields.io/github/stars/brianmanderson/Dicom_RT_and_Images_to_Mask?style=social)
 
 ![](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 
-[https://github.com/brianmanderson/Dicom\_RT\_and\_Images\_to\_Mask](https://github.com/brianmanderson/Dicom_RT_and_Images_to_Mask)
+**Links** :
+
+**Package** : 
+pydicom 
 
 ## [dicomweb-proxy](https://github.com/knopkem/dicomweb-proxy)
 
 A proxy to translate between dicomweb and traditional dicom dimse services
 
-Star : 31
+![GitHub license](https://img.shields.io/github/license/knopkem/dicomweb-proxy.svg)
+
+![Total line](https://img.shields.io/tokei/lines/github/knopkem/dicomweb-proxy)
+
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/knopkem/dicomweb-proxy?style=plastic)
+
+![Star](https://img.shields.io/github/stars/knopkem/dicomweb-proxy?style=social)
 
 ![](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
-[https://github.com/knopkem/dicomweb-proxy](https://github.com/knopkem/dicomweb-proxy)
+**Links** :
+
+**Package** : 
 
 ## [DICOM-to-JPG](https://github.com/vivek8981/DICOM-to-JPG)
 
 Convert all DICOM (.dcm) images in a folder to JPG/PNG and extract all patients information in a &#39;.csv&#39; format in a go using python.
 
-Star : 29
+![GitHub license](https://img.shields.io/github/license/vivek8981/DICOM-to-JPG.svg)
+
+![Total line](https://img.shields.io/tokei/lines/github/vivek8981/DICOM-to-JPG)
+
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/vivek8981/DICOM-to-JPG?style=plastic)
+
+![Star](https://img.shields.io/github/stars/vivek8981/DICOM-to-JPG?style=social)
 
 ![](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 
-[https://github.com/vivek8981/DICOM-to-JPG](https://github.com/vivek8981/DICOM-to-JPG)
+**Links** :
+
+**Package** : 
 
 ## [wsi-to-dicom-converter](https://github.com/GoogleCloudPlatform/wsi-to-dicom-converter)
 
@@ -778,7 +1141,9 @@ Star : 23
 
 ![](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
 
-[https://github.com/GoogleCloudPlatform/wsi-to-dicom-converter](https://github.com/GoogleCloudPlatform/wsi-to-dicom-converter)
+**Links** :
+
+**Package** : 
 
 ## [dicomifier](https://github.com/lamyj/dicomifier)
 
@@ -788,7 +1153,9 @@ Star : 19
 
 ![](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 
-[https://github.com/lamyj/dicomifier](https://github.com/lamyj/dicomifier)
+**Links** :
+
+**Package** : 
 
 ## [imageformats](https://github.com/dbrant/imageformats)
 
@@ -798,7 +1165,9 @@ Star : 17
 
 ![](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white)
 
-[https://github.com/dbrant/imageformats](https://github.com/dbrant/imageformats)
+**Links** :
+
+**Package** : 
 
 ## [pylibjpeg](https://github.com/pydicom/pylibjpeg)
 
@@ -808,11 +1177,12 @@ Star : 19
 
 ![](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 
-Package : pydicom
+**Links** :
 
-[https://github.com/pydicom/pylibjpeg](https://github.com/pydicom/pylibjpeg)
+**Package** : 
+pydicom
 
-# DICOM Mis
+# DICOM Miscellaneous
 
 ## [DVTk](https://github.com/dvtk-org/DVTk)
 
@@ -824,7 +1194,9 @@ Star : 69
 
 ![](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white), ![](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
 
-[https://github.com/dvtk-org/DVTk](https://github.com/dvtk-org/DVTk)
+**Links** :
+
+**Package** : 
 
 ## [ECGToolkit](https://github.com/Refactoring/ECGToolkit)
 
@@ -836,7 +1208,9 @@ Star : 60
 
 ![](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white)
 
-[https://github.com/Refactoring/ECGToolkit](https://github.com/Refactoring/ECGToolkit)
+**Links** :
+
+**Package** : 
 
 ## [DVH-Analytics](https://github.com/cutright/DVH-Analytics)
 
@@ -846,7 +1220,9 @@ Star : 55
 
 ![](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 
-[https://github.com/cutright/DVH-Analytics](https://github.com/cutright/DVH-Analytics)
+**Links** :
+
+**Package** : 
 
 ## [DICOM-CNN](https://github.com/ben-heil/DICOM-CNN)
 
@@ -856,13 +1232,17 @@ Star : 42
 
 ![](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 
-[https://github.com/ben-heil/DICOM-CNN](https://github.com/ben-heil/DICOM-CNN)
+**Links** :
+
+**Package** : 
 
 ## [dicomWeb](https://github.com/chafey/dicomWeb)
 
 Information about DICOMWeb - API&#39;s, implementations, etc. Pull requests are welcome!!
 
-[https://github.com/chafey/dicomWeb](https://github.com/chafey/dicomWeb)
+**Links** :
+
+**Package** : 
 
 ## [Niffler](https://github.com/Emory-HITI/Niffler)
 
@@ -872,9 +1252,11 @@ Star : 25
 
 ![](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 
-[https://github.com/Emory-HITI/Niffler](https://github.com/Emory-HITI/Niffler)
+**Links** :
 
 [https://emory-hiti.github.io/Niffler/](https://emory-hiti.github.io/Niffler/)
+
+**Package** : 
 
 ## [OnkoDICOM](https://github.com/didymo/OnkoDICOM)
 
@@ -896,9 +1278,11 @@ Star : 24
 
 ![](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
 
-[https://github.com/DraconPern/dovo](https://github.com/DraconPern/dovo)
+**Links** :
 
 [https://www.draconpern.com/software/dovo/](https://www.draconpern.com/software/dovo/)
+
+**Package** : 
 
 ## [healthcare-api-dicomweb-cli](https://github.com/GoogleCloudPlatform/healthcare-api-dicomweb-cli)
 

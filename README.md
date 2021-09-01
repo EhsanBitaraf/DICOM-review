@@ -1137,9 +1137,15 @@ Convert all DICOM (.dcm) images in a folder to JPG/PNG and extract all patients 
 
 This repository contains a tool that converts whole slide images (WSIs) to DICOM. To read the underlying whole slide images (WSIs), this tool relies on [OpenSlide](https://openslide.org/), which supports a variety of file formats.
 
-Star : 23
+![GitHub license](https://img.shields.io/github/license/GoogleCloudPlatform/wsi-to-dicom-converter.svg)
 
-![](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
+![Total line](https://img.shields.io/tokei/lines/github/GoogleCloudPlatform/wsi-to-dicom-converter)
+
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/GoogleCloudPlatform/wsi-to-dicom-converter?style=plastic)
+
+![Star](https://img.shields.io/github/stars/GoogleCloudPlatform/wsi-to-dicom-converter?style=social)
+
+...
 
 **Links** :
 
@@ -1149,7 +1155,13 @@ Star : 23
 
 Dicomifier is a set of tools to convert Bruker data to DICOM files, and DICOM files to NIfTI. It retains meta-data (e.g. MR parameters such as echo time or subject parameters such as weight or height) throughout the conversion process, and aligns the meta-data from Bruker on the DICOM dictionary for unified processing pipelines.
 
-Star : 19
+![GitHub license](https://img.shields.io/github/license/lamyj/dicomifier.svg)
+
+![Total line](https://img.shields.io/tokei/lines/github/lamyj/dicomifier)
+
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/lamyj/dicomifier?style=plastic)
+
+![Star](https://img.shields.io/github/stars/lamyj/dicomifier?style=social)
 
 ![](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 
@@ -1161,7 +1173,13 @@ Star : 19
 
 Library for decoding obscure graphics formats, such as Targa (.TGA), Sun raster (.RAS, .SUN), ZSoft (.PCX), Netpbm (.PPM, .PGM, .PBM, .PNM), Amiga (LBM, PIC), SGI, MacPaint, and DICOM.
 
-Star : 17
+![GitHub license](https://img.shields.io/github/license/dbrant/imageformats.svg)
+
+![Total line](https://img.shields.io/tokei/lines/github/dbrant/imageformats)
+
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/dbrant/imageformats?style=plastic)
+
+![Star](https://img.shields.io/github/stars/dbrant/imageformats?style=social)
 
 ![](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white)
 
@@ -1173,7 +1191,13 @@ Star : 17
 
 A Python 3.6+ framework for decoding JPEG images and decoding/encoding RLE datasets, with a focus on providing support for [pydicom](https://github.com/pydicom/pydicom).
 
-Star : 19
+![GitHub license](https://img.shields.io/github/license/pydicom/pylibjpeg.svg)
+
+![Total line](https://img.shields.io/tokei/lines/github/pydicom/pylibjpeg)
+
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/pydicom/pylibjpeg?style=plastic)
+
+![Star](https://img.shields.io/github/stars/pydicom/pylibjpeg?style=social)
 
 ![](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 
@@ -1190,7 +1214,13 @@ DICOM Validation Toolkit
 
 This GitHub project contains the complete and latest source code of the DVTk (DICOM Validation Toolkit) Open Source project. The Windows installers and forum are located on [https://www.dvtk.org/](https://www.dvtk.org/).
 
-Star : 69
+![GitHub license](https://img.shields.io/github/license/dvtk-org/DVTk.svg)
+
+![Total line](https://img.shields.io/tokei/lines/github/dvtk-org/DVTk)
+
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/dvtk-org/DVTk?style=plastic)
+
+![Star](https://img.shields.io/github/stars/dvtk-org/DVTk?style=social)
 
 ![](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white), ![](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
 
@@ -1204,7 +1234,13 @@ C# ECG Toolkit 2.5
 
 C# ECG Toolkit is an open source software toolkit to convert, view and print electrocardiograms. The toolkit is developed using C# .NET 2.0 (code also supports 1.1, 3.5 and 4.0). Support for ECG formats: SCP-ECG, DICOM, HL7 aECG, ISHNE and MUSE-XML.
 
-Star : 60
+![GitHub license](https://img.shields.io/github/license/Refactoring/ECGToolkit.svg)
+
+![Total line](https://img.shields.io/tokei/lines/github/Refactoring/ECGToolkit)
+
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/Refactoring/ECGToolkit?style=plastic)
+
+![Star](https://img.shields.io/github/stars/Refactoring/ECGToolkit?style=social)
 
 ![](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white)
 
@@ -1216,7 +1252,15 @@ Star : 60
 
 DVH Analytics (DVHA) is a software application for building a local database of radiation oncology treatment planning data. It imports data from DICOM-RT files (_i.e._, plan, dose, and structure), creates a SQL database, provides customizable plots, and provides tools for generating linear, multi-variable, and machine learning regressions.
 
-Star : 55
+![GitHub license](https://img.shields.io/github/license/cutright/DVH-Analytics.svg)
+
+![Total line](https://img.shields.io/tokei/lines/github/cutright/DVH-Analytics)
+
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/cutright/DVH-Analytics?style=plastic)
+
+![Star](https://img.shields.io/github/stars/cutright/DVH-Analytics?style=social)
+
+![](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white)
 
 ![](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 
@@ -1228,7 +1272,13 @@ Star : 55
 
 Scripts useful for doing deep learning on DICOM images. Used to differentiate between images with and without lung nodules for my semester project in machine learning.
 
-Star : 42
+![GitHub license](https://img.shields.io/github/license/ben-heil/DICOM-CNN.svg)
+
+![Total line](https://img.shields.io/tokei/lines/github/ben-heil/DICOM-CNN)
+
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/ben-heil/DICOM-CNN?style=plastic)
+
+![Star](https://img.shields.io/github/stars/ben-heil/DICOM-CNN?style=social)
 
 ![](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 
@@ -1240,6 +1290,14 @@ Star : 42
 
 Information about DICOMWeb - API&#39;s, implementations, etc. Pull requests are welcome!!
 
+![GitHub license](https://img.shields.io/github/license/chafey/dicomWeb.svg)
+
+![Total line](https://img.shields.io/tokei/lines/github/chafey/dicomWeb)
+
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/chafey/dicomWeb?style=plastic)
+
+![Star](https://img.shields.io/github/stars/chafey/dicomWeb?style=social)
+
 **Links** :
 
 **Package** : 
@@ -1248,7 +1306,13 @@ Information about DICOMWeb - API&#39;s, implementations, etc. Pull requests are 
 
 Niffler is an efficient DICOM Framework for machine learning pipelines and processing workflows on metadata. It facilitates efficient transfer of DICOM images on-demand and real-time from PACS to the research environments, to run processing workflows and machine learning pipelines.
 
-Star : 25
+![GitHub license](https://img.shields.io/github/license/Emory-HITI/Niffler.svg)
+
+![Total line](https://img.shields.io/tokei/lines/github/Emory-HITI/Niffler)
+
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/Emory-HITI/Niffler?style=plastic)
+
+![Star](https://img.shields.io/github/stars/Emory-HITI/Niffler?style=social)
 
 ![](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 
